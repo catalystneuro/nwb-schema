@@ -7,7 +7,7 @@ datasets:
   shape:
   - null
   - null
-  doc: A grayscale image.
+  doc: A grayscale image, in which data is stored in x, y dimension order.
   dtype: numeric
 
 - neurodata_type_def: RGBImage
@@ -20,7 +20,8 @@ datasets:
   - null
   - null
   - 3
-  doc: A color image.
+  doc: A color image, in which data is stored in x, y dimension order and the
+    third dimension can have three (x, y, (r, g, b)) elements.
   dtype: numeric
 
 - neurodata_type_def: RGBAImage
@@ -33,7 +34,8 @@ datasets:
   - null
   - null
   - 4
-  doc: A color image with transparency.
+  doc: A color image with transparency, in which data is stored in x, y dimension order and the
+    third dimension can have four (x, y, (r, g, b, a)) elements.
   dtype: numeric
 
 groups:
