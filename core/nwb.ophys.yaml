@@ -12,7 +12,7 @@ groups:
     doc: TODO
     required: true
 
-- neurodata_type_def: OnePhotonCamera
+- neurodata_type_def: Camera
   neurodata_type_inc: Device
   doc: Metadata about the camera used as the data acquisition device for one-photon optical imaging.
   attributes:
